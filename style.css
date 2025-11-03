@@ -4,3 +4,111 @@ body {
   background-color: #f4f4f4;
   color: #1f2937;
 }
+
+nav {
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  color: #ec4899;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.nav-links {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0;
+}
+.nav-links li {
+  display: inline;
+  margin-left: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 600;
+}
+.nav-links a:hover {
+  color: #ec4899;
+}
+
+.utama {
+  width: 90%;
+  margin: 80px auto 50px auto;
+  overflow: hidden;
+}
+.utama-left {
+  float: left;
+  width: 55%;
+}
+.utama-right {
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+.utama h1 {
+  color: #ec4899;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.subtitle {
+  color: #64748b;
+}
+.npm {
+  color: #64748b;
+  font-weight: bold;
+}
+.tags span {
+  background: #ec4899;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 4px;
+}
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn-primary {
+  background: #ec4899;
+  color: white;
+}
+.btn-secondary {
+  border: 2px solid #ec4899;
+  color: #ec4899;
+  background: white;
+}
+.btn-secondary:hover {
+  background: #ec4899;
+  color: white;
+}
+
+.card, .photo-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.photo-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}

@@ -1,4 +1,4 @@
-Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tugas akhir praktikum pemrograman web 2.
+Tugas akhir praktikum pemrograman web 2
 
 **Cara Pembuatan**
 
@@ -91,10 +91,9 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
 
 Ini merupakan hasil dari `git log --graph --oneline` yang **sebenarnya**, yang menunjukkan semua proses commit, branch, dan merge:
 
-**Struktur Commit**
 Proses pengembangan website ini dilakukan secara bertahap agar setiap perubahan dapat dilacak dengan jelas melalui commit berikut:
 
-Ini merupakan hasil dari git log --graph --oneline
+Berikut hasil dari git log --graph --oneline
 
     ```bash
     H:\TEMP\portofolio-erlin>git log --graph --oneline

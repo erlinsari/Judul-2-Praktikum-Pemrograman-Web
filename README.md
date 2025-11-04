@@ -1,6 +1,109 @@
-Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas mata kuliah Pemrograman Web. Website ini menampilkan informasi tentang saya, skill, proyek, dan pengalaman saya di bidang Data Science dan Machine Learning.
+Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tugas akhir praktikum pemrograman web 2.
 
-Instalasi dan Penggunaan
+**Cara Pembuatan**
+
+1.  **Inisialisasi Git**
+    ```bash
+    git init
+    ```
+
+2.  **Atur Nama Branch Utama**
+    ```bash
+    git branch -M main
+    ```
+
+3.  **Commit awal(bikin index.html dan style.css)**
+    ```bash
+    git add .
+    git commit -m "Commit pertama kali"
+    ```
+
+4.  **Commit Section Navigasi**
+    ```bash
+    git add .
+    git commit -m "add navbar"
+    ```
+
+5.  **Commit Home**
+    ```bash
+    git add .
+    git commit -m "nambah add home section"
+    ```
+
+6.  **Commit about dan styling base section**
+    ```bash
+    git add .
+    git commit -m "tambah about dan styling base sectiong"
+    ```
+
+7.  **Commit skill section**
+    ```bash
+    git add .
+    git commit -m "nambah skill section"
+    ```
+
+8.  **Commit project section**
+    ```bash
+    git add .
+    git commit -m "tambah project section"
+    ```
+
+9.  **Commit section experience**
+    ```bash
+    git add .
+    git commit -m "tambah section experience"
+    ```
+
+10.  **Commit Footer dan kontak**
+    ```bash
+    git add .
+    git commit -m "tambah kontak dan footernya"
+    ```
+
+12.  **Buat dan pindah ke branch baru**
+    ```bash
+    git checkout -b styling-experiment
+    ```
+
+13.  **Commit perubahannya**
+    ```bash
+    git add style.css
+    git commit -m "pink ke biru theme"
+    ```
+
+14.  **Kembali ke branch awal**
+    ```bash
+    git checkout main
+    ```
+
+15.  **Merge Branch**
+    ```bash
+    git merge styling-experiment
+    ```
+
+16.  **Commit README.md**
+    ```bash
+    git add README.md
+    git commit -m "Dokumen readme"
+    ```
+
+17.  **Menghubungkan ke github**
+    ```bash
+    git remote add origin https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git
+    ```
+
+18.  **Push github**
+    ```bash
+    git push -u origin main
+    ```
+
+19.  **Push branch**
+    ```bash
+    git push origin styling-experiment
+    ```
+
+
+**Cara Penggunaan**
 
 1.  **Clone repository ini:**
     ```bash
@@ -13,7 +116,30 @@ Instalasi dan Penggunaan
     ```
 
 3.  **Buka file `index.html`:**
-    Cukup klik dua kali file `index.html` di folder Anda untuk membukanya di browser.
+    Klik dua kali file `index.html` di folder untuk membukanya di browser.
 
----
-*Dibuat oleh Erlin Sari Ramadhani 
+**Struktur Commit**
+Proses pengembangan website ini dilakukan secara bertahap agar setiap perubahan dapat dilacak dengan jelas melalui commit berikut:
+
+Ini merupakan hasil dari git log --graph --oneline
+
+H:\TEMP\portofolio-erlin>git log --graph --oneline
+* 0a85704 (HEAD -> main, origin/main) Dokumen readme
+* 5525e40 Dokumen readme
+* 753549c (origin/styling-experiment, styling-experiment) tambah kontak dan footernya
+* 54604e1 tambah section experience
+* 68c4913 tambah project section
+* 3184217 tambah skill section
+* f5b887b tambah about dan styling base section
+* 8903e7a nambah add home section
+* a5e9ea3 Commit pertama kali
+
+**Branching dan Merging**
+Pengembangan fitur baru dilakukan melalui branch eksperimental agar tidak mengganggu versi utama.
+Terdapat dua branch utama dalam proyek ini:
+
+main :Berisi versi stabil dari website.
+
+styling-experiment :Digunakan untuk eksperimen penambahan section kontak dan footer.
+
+Setelah proses pengujian dan revisi selesai, branch styling-experiment di-merge kembali ke branch utama main.

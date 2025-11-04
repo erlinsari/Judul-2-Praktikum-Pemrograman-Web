@@ -60,48 +60,47 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
     git commit -m "tambah kontak dan footernya"
     ```
 
-12.  **Buat dan pindah ke branch baru**
+11.  **Buat dan pindah ke branch baru**
     ```bash
     git checkout -b styling-experiment
     ```
 
-13.  **Commit perubahannya**
+12.  **Commit perubahannya**
     ```bash
     git add style.css
     git commit -m "pink ke biru theme"
     ```
 
-14.  **Kembali ke branch awal**
+13.  **Kembali ke branch awal**
     ```bash
     git checkout main
     ```
 
-15.  **Merge Branch**
+14.  **Merge Branch**
     ```bash
     git merge styling-experiment
     ```
 
-16.  **Commit README.md**
+15.  **Commit README.md**
     ```bash
     git add README.md
     git commit -m "Dokumen readme"
     ```
 
-17.  **Menghubungkan ke github**
+16.  **Menghubungkan ke github**
     ```bash
     git remote add origin https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git
     ```
 
-18.  **Push github**
+17.  **Push github**
     ```bash
     git push -u origin main
     ```
 
-19.  **Push branch**
+18.  **Push branch**
     ```bash
     git push origin styling-experiment
     ```
-
 
 **Cara Penggunaan**
 

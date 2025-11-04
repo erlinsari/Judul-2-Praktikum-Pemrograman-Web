@@ -1,6 +1,7 @@
 Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tugas akhir praktikum pemrograman web 2.
 
 **Cara Pembuatan**
+
     ```bash
     #Inisialisasi Git
     git init

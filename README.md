@@ -122,7 +122,8 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
 ---
 
 **Struktur Commit**
-Proses pengembangan website ini dilakukan secara bertahap. Ini merupakan hasil dari `git log --graph --oneline` yang **sebenarnya**, yang menunjukkan semua proses commit, branch, dan merge:
+
+Ini merupakan hasil dari `git log --graph --oneline` yang **sebenarnya**, yang menunjukkan semua proses commit, branch, dan merge:
 
 **Struktur Commit**
 Proses pengembangan website ini dilakukan secara bertahap agar setiap perubahan dapat dilacak dengan jelas melalui commit berikut:

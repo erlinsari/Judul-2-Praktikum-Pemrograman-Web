@@ -68,6 +68,8 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
 
     ```
 
+---
+
 **Cara Penggunaan**
 
 1.  **Clone repository ini:**
@@ -106,6 +108,9 @@ Ini merupakan hasil dari git log --graph --oneline
      8903e7a nambah add home section
     a5e9ea3 Commit pertama kali
     ```
+
+---
+
 **Branching dan Merging**
 Pengembangan fitur baru dilakukan melalui branch eksperimental agar tidak mengganggu versi utama.
 Terdapat dua branch utama dalam proyek ini:

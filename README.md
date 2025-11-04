@@ -94,17 +94,18 @@ Proses pengembangan website ini dilakukan secara bertahap agar setiap perubahan 
 
 Ini merupakan hasil dari git log --graph --oneline
 
-H:\TEMP\portofolio-erlin>git log --graph --oneline
-* 0a85704 (HEAD -> main, origin/main) Dokumen readme
-* 5525e40 Dokumen readme
-* 753549c (origin/styling-experiment, styling-experiment) tambah kontak dan footernya
-* 54604e1 tambah section experience
-* 68c4913 tambah project section
-* 3184217 tambah skill section
-* f5b887b tambah about dan styling base section
-* 8903e7a nambah add home section
-* a5e9ea3 Commit pertama kali
-
+    ```bash
+    H:\TEMP\portofolio-erlin>git log --graph --oneline
+    a85704 (HEAD -> main, origin/main) Dokumen readme
+    5525e40 Dokumen readme
+    753549c (origin/styling-experiment, styling-experiment) tambah kontak dan footernya
+    54604e1 tambah section experience
+    68c4913 tambah project section
+    3184217 tambah skill section
+    f5b887b tambah about dan styling base section
+     8903e7a nambah add home section
+    a5e9ea3 Commit pertama kali
+    ```
 **Branching dan Merging**
 Pengembangan fitur baru dilakukan melalui branch eksperimental agar tidak mengganggu versi utama.
 Terdapat dua branch utama dalam proyek ini:

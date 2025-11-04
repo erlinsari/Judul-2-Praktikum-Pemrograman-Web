@@ -33,7 +33,7 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
 6.  **Commit about dan styling base section**
     ```bash
     git add .
-    git commit -m "tambah about dan styling base sectiong"
+    git commit -m "tambah about dan styling base section"
     ```
 
 7.  **Commit skill section**
@@ -65,7 +65,7 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
     git checkout -b styling-experiment
     ```
 
-12.  **Commit perubahannya**
+12.  **Commit perubahannya (mengubah warna)**
     ```bash
     git add style.css
     git commit -m "pink ke biru theme"
@@ -89,7 +89,7 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
 
 16.  **Menghubungkan ke github**
     ```bash
-    git remote add origin https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git
+    git remote add origin [https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git](https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git)
     ```
 
 17.  **Push github**
@@ -102,20 +102,27 @@ Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tug
     git push origin styling-experiment
     ```
 
+---
+
 **Cara Penggunaan**
 
 1.  **Clone repository ini:**
     ```bash
-    git clone [https://github.com/erlinsari/portfolio-website.git](https://github.com/erlinsari/portfolio-website.git)
+    git clone [https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git](https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git)
     ```
 
 2.  **Masuk ke direktori proyek:**
     ```bash
-    cd portfolio-website
+    cd Judul-2-Praktikum-Pemrograman-Web
     ```
 
 3.  **Buka file `index.html`:**
     Klik dua kali file `index.html` di folder untuk membukanya di browser.
+
+---
+
+**Struktur Commit**
+Proses pengembangan website ini dilakukan secara bertahap. Ini merupakan hasil dari `git log --graph --oneline` yang **sebenarnya**, yang menunjukkan semua proses commit, branch, dan merge:
 
 **Struktur Commit**
 Proses pengembangan website ini dilakukan secara bertahap agar setiap perubahan dapat dilacak dengan jelas melalui commit berikut:

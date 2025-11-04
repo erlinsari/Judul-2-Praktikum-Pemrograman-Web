@@ -1,108 +1,71 @@
 Ini adalah proyek website portfolio pribadi yang dibuat untuk memenuhi tugas tugas akhir praktikum pemrograman web 2.
 
 **Cara Pembuatan**
-
-1.  **Inisialisasi Git**
     ```bash
+    #Inisialisasi Git
     git init
-    ```
 
-2.  **Atur Nama Branch Utama**
-    ```bash
+    #Atur Nama Branch Utama
     git branch -M main
-    ```
 
-3.  **Commit awal(bikin index.html dan style.css)**
-    ```bash
+    #Commit awal(bikin index.html dan style.css)
     git add .
     git commit -m "Commit pertama kali"
-    ```
 
-4.  **Commit Section Navigasi**
-    ```bash
+    #Commit Section Navigasi
     git add .
-    git commit -m "add navbar"
-    ```
 
-5.  **Commit Home**
-    ```bash
+    #Commit Home
     git add .
     git commit -m "nambah add home section"
-    ```
-
-6.  **Commit about dan styling base section**
-    ```bash
+    
+    #Commit about dan styling base section
     git add .
     git commit -m "tambah about dan styling base section"
-    ```
 
-7.  **Commit skill section**
-    ```bash
+    #Commit skill section
     git add .
     git commit -m "nambah skill section"
-    ```
 
-8.  **Commit project section**
-    ```bash
+    #Commit project section
     git add .
     git commit -m "tambah project section"
-    ```
 
-9.  **Commit section experience**
-    ```bash
+    #Commit section experience
     git add .
     git commit -m "tambah section experience"
-    ```
 
-10.  **Commit Footer dan kontak**
-    ```bash
+    #Commit Footer dan kontak
     git add .
     git commit -m "tambah kontak dan footernya"
-    ```
 
-11.  **Buat dan pindah ke branch baru**
-    ```bash
+    #Buat dan pindah ke branch baru
     git checkout -b styling-experiment
-    ```
 
-12.  **Commit perubahannya (mengubah warna)**
-    ```bash
+    #Commit perubahannya (mengubah warna)
     git add style.css
     git commit -m "pink ke biru theme"
-    ```
 
-13.  **Kembali ke branch awal**
-    ```bash
+    #Kembali ke branch awal
     git checkout main
-    ```
 
-14.  **Merge Branch**
-    ```bash
+    #Merge Branch
     git merge styling-experiment
-    ```
 
-15.  **Commit README.md**
-    ```bash
+    #Commit README.md
     git add README.md
     git commit -m "Dokumen readme"
-    ```
 
-16.  **Menghubungkan ke github**
-    ```bash
+    #Menghubungkan ke github
     git remote add origin [https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git](https://github.com/erlinsari/Judul-2-Praktikum-Pemrograman-Web.git)
-    ```
 
-17.  **Push github**
-    ```bash
+    #Push github
     git push -u origin main
-    ```
 
-18.  **Push branch**
-    ```bash
+    #Push branch
     git push origin styling-experiment
-    ```
 
----
+    ```
 
 **Cara Penggunaan**
 
